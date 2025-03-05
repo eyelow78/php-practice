@@ -7,14 +7,14 @@ use Book\Book;
 class User
 {
     private string $name;
-    private int $userID;
+    private int $userId;
     private array $borrowedBooks;
     private int $penalty;
 
-    public function __construct(string $name, int $userID)
+    public function __construct(string $name, int $userId)
     {
         $this->name = $name;
-        $this->userID = $userID;
+        $this->userId = $userId;
         $this->borrowedBooks = [];
         $this->penalty = 0;
     }
@@ -53,9 +53,9 @@ class User
         return $this->penalty;
     }
 
-    public function getID(): int
+    public function getId(): int
     {
-        return $this->userID;
+        return $this->userId;
     }
 
     public function getName(): string
