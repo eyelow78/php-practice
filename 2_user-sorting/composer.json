@@ -1,5 +1,5 @@
 {
-    "name": "dmitry/user-sorting",
+    "name": "dmitry/2_user-sorting",
     "type": "project",
     "autoload": {
         "psr-4": {

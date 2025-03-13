@@ -1,2 +1,3 @@
-/library/vendor/
-/user-sorting/vendor/
+/1_library/vendor/
+/2_user-sorting/vendor/
+/3_pizzeria/vendor/
