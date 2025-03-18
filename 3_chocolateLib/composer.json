@@ -1,5 +1,5 @@
 {
-    "name": "eyelow78/php-practice",
+    "name": "eyelow78/chocolatelib",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -8,11 +8,5 @@
     },
     "require": {
         "php": ">=7.5"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/eyelow78/php-practice"
-        }
-    ]
+    }
 }
