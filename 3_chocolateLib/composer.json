@@ -1,5 +1,5 @@
 {
-    "name": "eyelow78/chocolatelib",
+    "name": "eyelow78/3_chocolatelib",
     "type": "library",
     "autoload": {
         "psr-4": {
