@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7344e22fd5d8e21c3a87890fbb3a8e21",
+    "packages": [
+        {
+            "name": "kamialex/pizzalib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kamiAlex/PizzaLib.git",
+                "reference": "10390f80dfc0fe23cd241615f5c02f6f2e5e533b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kamiAlex/PizzaLib/zipball/10390f80dfc0fe23cd241615f5c02f6f2e5e533b",
+                "reference": "10390f80dfc0fe23cd241615f5c02f6f2e5e533b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PizzaLib\\": "src/PizzaLib/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/kamiAlex/PizzaLib/tree/master",
+                "issues": "https://github.com/kamiAlex/PizzaLib/issues"
+            },
+            "time": "2025-03-18T19:56:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "kamialex/pizzalib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "eyelow78/3_pizzeria",
+    "autoload": {
+        "psr-4": {
+            "Pizzeria\\": "src/Pizzeria"
+        }
+    },
+    "authors": [
+        {
+            "name": "eyelow78",
+            "email": "d.yagodarov2004@mail.ru"
+        }
+    ],
+    "require": {
+        "kamialex/pizzalib": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kamiAlex/PizzaLib"
+        }
+    ],
+    "minimum-stability": "dev"
+}
