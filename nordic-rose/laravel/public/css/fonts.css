@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'New York Small';
+    src: url('../fonts/new-york-small-regular.ttf');
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('../fonts/new-york-extra-large-semibold.ttf');
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../fonts/SFMono-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('../fonts/SFPro-Regular.otf');
+}
