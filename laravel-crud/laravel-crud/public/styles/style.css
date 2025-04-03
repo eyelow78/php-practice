@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+}
+.create-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.create-header h2 {
+    margin: 0;
+}
+.header-button {
+    width: 110px;
+    height: 40px;
+    background: rgb(0, 110, 255);
+    border: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.create-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    align-items: end;
+}
+.create-form-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.create-form-cont input, .create-form-cont textarea{
+    background: rgba(0, 0, 0, 0.534);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.create-form input{
+    height: 30px;
+}
