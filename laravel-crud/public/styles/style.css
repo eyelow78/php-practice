@@ -12,12 +12,12 @@ body {
     width: 50%;
     height: 50%;
 }
-.create-header {
+.main-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.create-header h2 {
+.main-header h2 {
     margin: 0;
 }
 .header-button {
@@ -29,6 +29,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 7px;
     cursor: pointer;
+    font-weight: 500;
 }
 .create-form{
     display: flex;
@@ -52,4 +53,43 @@ body {
 }
 .create-form input{
     height: 30px;
+}
+.add-button{
+    background: #00a72a;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+}
+tr, th, td, table{
+    border: 1px solid white;
+    border-style: solid;
+    border-collapse: collapse;
+}
+.delete-button{
+    background: red;
+}
+.edit-button{
+    background: #00a72a;
+}
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    height: 100%;
+    align-items: center;
+}
+.header-tr{
+    height: 50px;
+}
+.td{
+    text-align: center;
+}
+.descr{
+    width: 500px;
+    word-wrap: break-word;
+    margin: 0;
+}
+.td-descr{
+    width: 500px;
 }
